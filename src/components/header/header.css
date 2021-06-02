@@ -1,0 +1,44 @@
+@media screen and (min-width: 600px) {
+  .header {
+    background-color: #f8f9fa !important;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .user_info {
+    display: none;
+  }
+}
+
+@media screen {
+
+  .user_zone p {
+    margin: 0;
+  }
+  .user_info {
+    height: 50px;
+    padding: 50;
+    cursor: pointer;
+  }
+  .user_icon {
+    width: 50 !important;
+    height: 50;
+    border-radius: 50;
+    background-color: #a0a0a0;
+    display: block;
+  }
+  .user_name {
+    text-align: left;
+    font-size: small;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: bold;
+  }
+  .user_statut {
+    font-size: 10;
+    font-family: serif;
+  }
+}
